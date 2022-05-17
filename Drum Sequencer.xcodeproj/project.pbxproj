@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFB57A442833D4840099C86C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB57A432833D4840099C86C /* AppDelegate.swift */; };
+		CFB57A462833D4840099C86C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB57A452833D4840099C86C /* ViewController.swift */; };
+		CFB57A482833D4840099C86C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB57A472833D4840099C86C /* Document.swift */; };
+		CFB57A4B2833D4840099C86C /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFB57A492833D4840099C86C /* Document.xcdatamodeld */; };
+		CFB57A4D2833D4850099C86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB57A4C2833D4850099C86C /* Assets.xcassets */; };
+		CFB57A502833D4850099C86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB57A4E2833D4850099C86C /* Main.storyboard */; };
+		CFB57A5C2833D4850099C86C /* Drum_SequencerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB57A5B2833D4850099C86C /* Drum_SequencerTests.swift */; };
+		CFB57A662833D4850099C86C /* Drum_SequencerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB57A652833D4850099C86C /* Drum_SequencerUITests.swift */; };
+		CFB57A682833D4850099C86C /* Drum_SequencerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB57A672833D4850099C86C /* Drum_SequencerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFB57A582833D4850099C86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB57A382833D4840099C86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB57A3F2833D4840099C86C;
+			remoteInfo = "Drum Sequencer";
+		};
+		CFB57A622833D4850099C86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB57A382833D4840099C86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB57A3F2833D4840099C86C;
+			remoteInfo = "Drum Sequencer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFB57A402833D4840099C86C /* Drum Sequencer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drum Sequencer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB57A432833D4840099C86C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFB57A452833D4840099C86C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFB57A472833D4840099C86C /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		CFB57A4A2833D4840099C86C /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		CFB57A4C2833D4850099C86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB57A4F2833D4850099C86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB57A512833D4850099C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB57A522833D4850099C86C /* Drum_Sequencer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Drum_Sequencer.entitlements; sourceTree = "<group>"; };
+		CFB57A572833D4850099C86C /* Drum SequencerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drum SequencerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB57A5B2833D4850099C86C /* Drum_SequencerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drum_SequencerTests.swift; sourceTree = "<group>"; };
+		CFB57A612833D4850099C86C /* Drum SequencerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drum SequencerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB57A652833D4850099C86C /* Drum_SequencerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drum_SequencerUITests.swift; sourceTree = "<group>"; };
+		CFB57A672833D4850099C86C /* Drum_SequencerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drum_SequencerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB57A3D2833D4840099C86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB57A542833D4850099C86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB57A5E2833D4850099C86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFB57A372833D4840099C86C = {
+			isa = PBXGroup;
+			children = (
+				CFB57A422833D4840099C86C /* Drum Sequencer */,
+				CFB57A5A2833D4850099C86C /* Drum SequencerTests */,
+				CFB57A642833D4850099C86C /* Drum SequencerUITests */,
+				CFB57A412833D4840099C86C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB57A412833D4840099C86C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB57A402833D4840099C86C /* Drum Sequencer.app */,
+				CFB57A572833D4850099C86C /* Drum SequencerTests.xctest */,
+				CFB57A612833D4850099C86C /* Drum SequencerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB57A422833D4840099C86C /* Drum Sequencer */ = {
+			isa = PBXGroup;
+			children = (
+				CFB57A432833D4840099C86C /* AppDelegate.swift */,
+				CFB57A452833D4840099C86C /* ViewController.swift */,
+				CFB57A472833D4840099C86C /* Document.swift */,
+				CFB57A4C2833D4850099C86C /* Assets.xcassets */,
+				CFB57A4E2833D4850099C86C /* Main.storyboard */,
+				CFB57A512833D4850099C86C /* Info.plist */,
+				CFB57A522833D4850099C86C /* Drum_Sequencer.entitlements */,
+				CFB57A492833D4840099C86C /* Document.xcdatamodeld */,
+			);
+			path = "Drum Sequencer";
+			sourceTree = "<group>";
+		};
+		CFB57A5A2833D4850099C86C /* Drum SequencerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB57A5B2833D4850099C86C /* Drum_SequencerTests.swift */,
+			);
+			path = "Drum SequencerTests";
+			sourceTree = "<group>";
+		};
+		CFB57A642833D4850099C86C /* Drum SequencerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB57A652833D4850099C86C /* Drum_SequencerUITests.swift */,
+				CFB57A672833D4850099C86C /* Drum_SequencerUITestsLaunchTests.swift */,
+			);
+			path = "Drum SequencerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB57A3F2833D4840099C86C /* Drum Sequencer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB57A6B2833D4850099C86C /* Build configuration list for PBXNativeTarget "Drum Sequencer" */;
+			buildPhases = (
+				CFB57A3C2833D4840099C86C /* Sources */,
+				CFB57A3D2833D4840099C86C /* Frameworks */,
+				CFB57A3E2833D4840099C86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drum Sequencer";
+			productName = "Drum Sequencer";
+			productReference = CFB57A402833D4840099C86C /* Drum Sequencer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFB57A562833D4850099C86C /* Drum SequencerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB57A6E2833D4850099C86C /* Build configuration list for PBXNativeTarget "Drum SequencerTests" */;
+			buildPhases = (
+				CFB57A532833D4850099C86C /* Sources */,
+				CFB57A542833D4850099C86C /* Frameworks */,
+				CFB57A552833D4850099C86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB57A592833D4850099C86C /* PBXTargetDependency */,
+			);
+			name = "Drum SequencerTests";
+			productName = "Drum SequencerTests";
+			productReference = CFB57A572833D4850099C86C /* Drum SequencerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFB57A602833D4850099C86C /* Drum SequencerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB57A712833D4850099C86C /* Build configuration list for PBXNativeTarget "Drum SequencerUITests" */;
+			buildPhases = (
+				CFB57A5D2833D4850099C86C /* Sources */,
+				CFB57A5E2833D4850099C86C /* Frameworks */,
+				CFB57A5F2833D4850099C86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB57A632833D4850099C86C /* PBXTargetDependency */,
+			);
+			name = "Drum SequencerUITests";
+			productName = "Drum SequencerUITests";
+			productReference = CFB57A612833D4850099C86C /* Drum SequencerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB57A382833D4840099C86C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CFB57A3F2833D4840099C86C = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CFB57A562833D4850099C86C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CFB57A3F2833D4840099C86C;
+					};
+					CFB57A602833D4850099C86C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CFB57A3F2833D4840099C86C;
+					};
+				};
+			};
+			buildConfigurationList = CFB57A3B2833D4840099C86C /* Build configuration list for PBXProject "Drum Sequencer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB57A372833D4840099C86C;
+			productRefGroup = CFB57A412833D4840099C86C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB57A3F2833D4840099C86C /* Drum Sequencer */,
+				CFB57A562833D4850099C86C /* Drum SequencerTests */,
+				CFB57A602833D4850099C86C /* Drum SequencerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB57A3E2833D4840099C86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB57A4D2833D4850099C86C /* Assets.xcassets in Resources */,
+				CFB57A502833D4850099C86C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB57A552833D4850099C86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB57A5F2833D4850099C86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB57A3C2833D4840099C86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB57A4B2833D4840099C86C /* Document.xcdatamodeld in Sources */,
+				CFB57A462833D4840099C86C /* ViewController.swift in Sources */,
+				CFB57A442833D4840099C86C /* AppDelegate.swift in Sources */,
+				CFB57A482833D4840099C86C /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB57A532833D4850099C86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB57A5C2833D4850099C86C /* Drum_SequencerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB57A5D2833D4850099C86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB57A682833D4850099C86C /* Drum_SequencerUITestsLaunchTests.swift in Sources */,
+				CFB57A662833D4850099C86C /* Drum_SequencerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFB57A592833D4850099C86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB57A3F2833D4840099C86C /* Drum Sequencer */;
+			targetProxy = CFB57A582833D4850099C86C /* PBXContainerItemProxy */;
+		};
+		CFB57A632833D4850099C86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB57A3F2833D4840099C86C /* Drum Sequencer */;
+			targetProxy = CFB57A622833D4850099C86C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFB57A4E2833D4850099C86C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB57A4F2833D4850099C86C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFB57A692833D4850099C86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFB57A6A2833D4850099C86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CFB57A6C2833D4850099C86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Drum Sequencer/Drum_Sequencer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA5UQ6N57Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Drum Sequencer/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jsmp.Drum-Sequencer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFB57A6D2833D4850099C86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Drum Sequencer/Drum_Sequencer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA5UQ6N57Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Drum Sequencer/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jsmp.Drum-Sequencer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFB57A6F2833D4850099C86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA5UQ6N57Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jsmp.Drum-SequencerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drum Sequencer.app/Contents/MacOS/Drum Sequencer";
+			};
+			name = Debug;
+		};
+		CFB57A702833D4850099C86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA5UQ6N57Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jsmp.Drum-SequencerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drum Sequencer.app/Contents/MacOS/Drum Sequencer";
+			};
+			name = Release;
+		};
+		CFB57A722833D4850099C86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA5UQ6N57Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jsmp.Drum-SequencerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Drum Sequencer";
+			};
+			name = Debug;
+		};
+		CFB57A732833D4850099C86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA5UQ6N57Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jsmp.Drum-SequencerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Drum Sequencer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB57A3B2833D4840099C86C /* Build configuration list for PBXProject "Drum Sequencer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB57A692833D4850099C86C /* Debug */,
+				CFB57A6A2833D4850099C86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB57A6B2833D4850099C86C /* Build configuration list for PBXNativeTarget "Drum Sequencer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB57A6C2833D4850099C86C /* Debug */,
+				CFB57A6D2833D4850099C86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB57A6E2833D4850099C86C /* Build configuration list for PBXNativeTarget "Drum SequencerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB57A6F2833D4850099C86C /* Debug */,
+				CFB57A702833D4850099C86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB57A712833D4850099C86C /* Build configuration list for PBXNativeTarget "Drum SequencerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB57A722833D4850099C86C /* Debug */,
+				CFB57A732833D4850099C86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFB57A492833D4840099C86C /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFB57A4A2833D4840099C86C /* Document.xcdatamodel */,
+			);
+			currentVersion = CFB57A4A2833D4840099C86C /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFB57A382833D4840099C86C /* Project object */;
+}

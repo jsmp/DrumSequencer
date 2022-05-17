@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Drum Sequencer in Drum Sequencer, no dependencies
+Drum SequencerTests in Drum Sequencer, depends on:
+Drum Sequencer in Drum Sequencer (explicit)
+Drum SequencerUITests in Drum Sequencer, depends on:
+Drum Sequencer in Drum Sequencer (explicit)
