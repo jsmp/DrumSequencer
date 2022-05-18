@@ -7,9 +7,11 @@
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.example.persistent-store</string>
+				<string>me.jsmp.Drum-Sequencer</string>
 			</array>
 			<key>NSDocumentClass</key>
 			<string>$(PRODUCT_MODULE_NAME).Document</string>
@@ -28,13 +30,15 @@
 			</array>
 			<key>UTTypeDescription</key>
 			<string>Example Persistent Store</string>
+			<key>UTTypeIcons</key>
+			<dict/>
 			<key>UTTypeIdentifier</key>
-			<string>com.example.persistent-store</string>
+			<string>me.jsmp.Drum-Sequencer</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string>example-db</string>
+					<string>dseq</string>
 				</array>
 			</dict>
 		</dict>

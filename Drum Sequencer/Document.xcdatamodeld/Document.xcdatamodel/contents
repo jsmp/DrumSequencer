@@ -1,4 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F5048e" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DrumSequencerDocument" representedClassName="DrumSequencerDocument" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="pads" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Pad" inverseName="document" inverseEntity="Pad"/>
+        <relationship name="sequences" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Sequence" inverseName="document" inverseEntity="Sequence"/>
+        <relationship name="song" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Song" inverseName="document" inverseEntity="Song"/>
+    </entity>
+    <entity name="Pad" representedClassName="Pad" syncable="YES" codeGenerationType="class">
+        <attribute name="acentColor" optional="YES" attributeType="Binary"/>
+        <attribute name="midiNote" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pan" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="volume" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="document" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrumSequencerDocument" inverseName="pads" inverseEntity="DrumSequencerDocument"/>
+    </entity>
+    <entity name="Sequence" representedClassName="Sequence" syncable="YES" codeGenerationType="class">
+        <attribute name="steps" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="document" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrumSequencerDocument" inverseName="sequences" inverseEntity="DrumSequencerDocument"/>
+        <relationship name="patterns" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="SequencePattern" inverseName="sequence" inverseEntity="SequencePattern"/>
+    </entity>
+    <entity name="SequencePattern" representedClassName="SequencePattern" syncable="YES" codeGenerationType="class">
+        <attribute name="steps" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stepsRow1" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stepsRow2" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stepsRow3" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stepsRow4" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stepsRow5" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stepsRow6" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stepsRow7" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stepsRow8" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stepsRow9" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="sequence" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sequence" inverseName="patterns" inverseEntity="Sequence"/>
+    </entity>
+    <entity name="Song" representedClassName="Song" syncable="YES" codeGenerationType="class">
+        <relationship name="document" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrumSequencerDocument" inverseName="song" inverseEntity="DrumSequencerDocument"/>
+    </entity>
+    <elements>
+        <element name="SequencePattern" positionX="-63" positionY="-18" width="128" height="194"/>
+        <element name="Sequence" positionX="-54" positionY="63" width="128" height="74"/>
+        <element name="DrumSequencerDocument" positionX="-18" positionY="99" width="128" height="104"/>
+        <element name="Pad" positionX="0" positionY="108" width="128" height="119"/>
+        <element name="Song" positionX="-9" positionY="117" width="128" height="44"/>
+    </elements>
 </model>
